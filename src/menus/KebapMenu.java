@@ -1,4 +1,4 @@
-package models.menus;
+package menus;
 
 import interfaces.IMenu;
 
