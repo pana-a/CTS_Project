@@ -60,6 +60,7 @@ public class SauceMenu extends AMenu implements IMenu {
             System.out.println("Nu exista sosuri!");
         }
         else {
+            System.out.println("Selectati numarul sosului pe care doriti sa il stergeti");
             sauceManager.displaySauces();
             String option = scanner.nextLine();
 

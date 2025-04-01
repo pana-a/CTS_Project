@@ -19,7 +19,7 @@ public class KebapBuilder implements IBuilder {
     private Fiber fiber;
     private Healthy healthy;
 
-    public KebapBuilder() {
+    public KebapBuilder(Protein protein, Carbohydrate carbohydrate) {
         this.protein = protein;
         this.carbohydrate = carbohydrate;
         this.sauces = new ArrayList<>();

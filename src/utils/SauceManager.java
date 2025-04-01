@@ -32,7 +32,6 @@ public class SauceManager {
             for(int i = 0; i<sauces.size(); i++){
                 System.out.println(i+1 + ". " + sauces.get(i));
             }
-            System.out.println("Selectati numarul sosului pe care doriti sa il stergeti");
         }
     }
 
