@@ -55,9 +55,13 @@ public class Kebap {
         this.healthy = healthy;
     }
 
+    public Protein getProtein() {
+        return protein;
+    }
+
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Kebap #" +counter+ "\n");
+        StringBuilder sb = new StringBuilder("Kebap: " +"\n");
 
         sb.append("Proteina: ").append(protein.getName()).append("\n");
         sb.append("Carbohidrati: ").append(carbohydrate.getName()).append("\n");
