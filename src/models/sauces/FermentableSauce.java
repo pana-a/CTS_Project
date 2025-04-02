@@ -10,10 +10,6 @@ public class FermentableSauce extends Sauce implements IExpirable {
         this.expirationHours = expirationHours;
     }
 
-    public boolean isFermentable(){
-        return true;
-    }
-
     @Override
     public Integer getExpirationHours() {
         return this.expirationHours;

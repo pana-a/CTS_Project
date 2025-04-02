@@ -8,7 +8,4 @@ public class Sauce extends AIngredient {
         super(name);
     }
 
-    public boolean isFermentable(){
-        return false;
-    }
 }
